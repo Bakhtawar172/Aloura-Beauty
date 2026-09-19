@@ -1,0 +1,221 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Sign Up | Aloura</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                fontFamily: {
+                    sans: ['Montserrat', 'sans-serif'],
+                    display: ['Bodoni Moda', 'serif']
+                }
+            }
+        }
+    }
+</script>
+
+<!-- Flowbite -->
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+
+</head><body class="bg-[#FAF7FC] text-[#29232D] font-sans"><!-- NAVBAR -->
+<nav class="bg-white border-b border-[#E6DDEA]">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+
+        <a href="index.html"
+           class="font-display text-4xl font-semibold tracking-[0.25em] text-[#6F5685]">
+            ALOURA
+        </a>
+
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+            <a href="index.html" class="hover:text-[#8B6FAE]">Home</a>
+            <a href="about.html" class="hover:text-[#8B6FAE]">About</a>
+            <a href="contact.html" class="hover:text-[#8B6FAE]">Contact</a>
+            <a href="signup.html" class="text-[#6F5685]">Sign Up</a>
+
+            <a href="signin.html"
+               class="bg-[#6F5685] text-white px-5 py-2.5 rounded-full hover:bg-[#59436D]">
+                Sign In
+            </a>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- SIGN UP SECTION -->
+<section class="min-h-[80vh] flex items-center justify-center px-6 py-16">
+
+    <div class="w-full max-w-lg">
+
+        <!-- Heading -->
+        <div class="text-center mb-8">
+
+            <p class="uppercase tracking-[0.25em] text-sm text-[#8B6FAE] mb-3">
+                JOIN ALOURA
+            </p>
+
+            <h1 class="text-4xl md:text-5xl font-semibold text-[#29232D]">
+                Create your account
+            </h1>
+
+            <p class="text-gray-600 mt-4">
+                Start your beauty journey with Aloura.
+            </p>
+
+        </div>
+
+
+        <!-- Card -->
+        <div class="bg-white border border-[#E6DDEA] rounded-3xl shadow-sm p-8">
+
+            <form class="space-y-5">
+
+                <!-- Name -->
+                <div>
+                    <label for="name"
+                           class="block mb-2 text-sm font-semibold">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your name"
+                        required
+                        class="block w-full px-4 py-3 border border-[#E6DDEA] rounded-xl bg-[#FAF7FC] focus:ring-2 focus:ring-[#B982AD] focus:border-[#6F5685] outline-none">
+                </div>
+
+
+                <!-- Email -->
+                <div>
+                    <label for="email"
+                           class="block mb-2 text-sm font-semibold">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="you@example.com"
+                        required
+                        class="block w-full px-4 py-3 border border-[#E6DDEA] rounded-xl bg-[#FAF7FC] focus:ring-2 focus:ring-[#B982AD] focus:border-[#6F5685] outline-none">
+                </div>
+
+
+                <!-- Password -->
+                <div>
+                    <label for="password"
+                           class="block mb-2 text-sm font-semibold">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Create a password"
+                        minlength="6"
+                        required
+                        class="block w-full px-4 py-3 border border-[#E6DDEA] rounded-xl bg-[#FAF7FC] focus:ring-2 focus:ring-[#B982AD] focus:border-[#6F5685] outline-none">
+                </div>
+
+
+                <!-- Confirm Password -->
+                <div>
+                    <label for="confirm-password"
+                           class="block mb-2 text-sm font-semibold">
+                        Confirm Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        name="confirm-password"
+                        placeholder="Repeat your password"
+                        minlength="6"
+                        required
+                        class="block w-full px-4 py-3 border border-[#E6DDEA] rounded-xl bg-[#FAF7FC] focus:ring-2 focus:ring-[#B982AD] focus:border-[#6F5685] outline-none">
+                </div>
+
+
+                <!-- Checkbox -->
+                <div class="flex items-start gap-3">
+
+                    <input
+                        id="terms"
+                        type="checkbox"
+                        required
+                        class="w-4 h-4 mt-1 accent-[#6F5685]">
+
+                    <label for="terms" class="text-sm text-gray-600">
+                        I agree to the Aloura terms and conditions.
+                    </label>
+
+                </div>
+
+
+                <!-- Button -->
+                <button
+                    type="submit"
+                    class="w-full bg-[#6F5685] text-white py-3.5 rounded-xl font-semibold hover:bg-[#59436D] transition">
+                    Create Account
+                </button>
+
+            </form>
+
+
+            <!-- Sign In Link -->
+            <p class="text-center text-sm text-gray-600 mt-6">
+
+                Already have an account?
+
+                <a href="signin.html"
+                   class="text-[#6F5685] font-semibold hover:underline">
+                    Sign in
+                </a>
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-[#59436D] text-white mt-10">
+
+    <div class="max-w-7xl mx-auto px-6 py-10">
+
+        <h2 class="font-display text-3xl font-semibold tracking-[0.25em]">
+            ALOURA
+        </h2>
+
+        <p class="text-white/70 mt-3 text-sm">
+            Simple beauty. Thoughtful rituals. Everyday confidence.
+        </p>
+
+        <div class="border-t border-white/20 mt-8 pt-6 text-sm text-white/60">
+            © 2026 Aloura. All rights reserved.
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

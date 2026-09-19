@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Aloura Beauty</title>
+
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600&family=Montserrat:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+
+    <!-- TAILWIND CSS -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- FLOWBITE -->
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+
+
+    <!-- TAILWIND FONT SETTINGS -->
+
+    <script>
+
+        tailwind.config = {
+
+            theme: {
+
+                extend: {
+
+                    fontFamily: {
+
+                        sans: ['Montserrat', 'sans-serif'],
+
+                        display: ['Bodoni Moda', 'serif']
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    </script>
+
+</head>
+
+
+
+<body class="bg-[#FAF7FC] text-[#29232D] font-sans">
+
+
+    <!-- ================================================= -->
+    <!-- NAVBAR -->
+    <!-- ================================================= -->
+
+    <nav class="bg-[#FAF7FC] border-b border-[#E6DDEA]">
+
+        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+
+
+            <!-- ALOURA LOGO -->
+
+            <a href="index.html"
+               class="font-display text-4xl font-semibold tracking-[0.25em] text-[#6F5685]">
+
+                ALOURA
+
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <div class="hidden md:flex items-center gap-8">
+
+                <a href="index.html"
+                   class="text-gray-600 hover:text-[#6F5685]">
+                    Home
+                </a>
+
+
+                <a href="about.html"
+                   class="text-gray-600 hover:text-[#6F5685]">
+                    About
+                </a>
+
+
+                <a href="contact.html"
+                   class="font-semibold text-[#6F5685]">
+                    Contact
+                </a>
+
+
+                <a href="signup.html"
+                   class="text-gray-600 hover:text-[#6F5685]">
+                    Sign Up
+                </a>
+
+
+                <a href="signin.html"
+                   class="bg-[#6F5685] text-white px-5 py-2.5 rounded-full hover:bg-[#59436D]">
+
+                    Sign In
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ================================================= -->
+    <!-- CONTACT HERO / JUMBOTRON -->
+    <!-- FLOWBITE COMPONENT 1 -->
+    <!-- ================================================= -->
+
+    <section class="bg-[#E9DDF2]">
+
+        <div class="max-w-7xl mx-auto px-6 py-20 text-center">
+
+
+            <p class="uppercase tracking-[0.3em] text-sm text-[#8B6FAE] font-semibold">
+
+                GET IN TOUCH
+
+            </p>
+
+
+            <h1 class="text-6xl md:text-7xl font-semibold mt-4">
+
+                Let's talk beauty.
+
+            </h1>
+
+
+            <p class="max-w-2xl mx-auto mt-6 text-gray-600 leading-7 text-lg">
+
+                Have a question about Aloura?
+                We'd love to hear from you.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================================= -->
+    <!-- CONTACT INFORMATION CARDS -->
+    <!-- FLOWBITE COMPONENT 2 -->
+    <!-- ================================================= -->
+
+    <section class="max-w-7xl mx-auto px-6 py-16">
+
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+
+            <!-- EMAIL CARD -->
+
+            <div class="bg-white border border-[#E6DDEA] rounded-3xl p-8 shadow-sm">
+
+
+                <div class="w-14 h-14 rounded-2xl bg-[#E9DDF2] text-[#6F5685] flex items-center justify-center text-2xl">
+
+                    ✉
+
+                </div>
+
+
+                <h2 class="text-xl font-semibold mt-6">
+
+                    Email Us
+
+                </h2>
+
+
+                <p class="text-gray-600 mt-2">
+
+                    hello@aloura.com
+
+                </p>
+
+
+                <a href="mailto:hello@aloura.com"
+                   class="inline-block mt-5 text-[#6F5685] font-semibold hover:underline">
+
+                    Send Email →
+
+                </a>
+
+            </div>
+
+
+
+            <!-- LOCATION CARD -->
+
+            <div class="bg-white border border-[#E6DDEA] rounded-3xl p-8 shadow-sm">
+
+
+                <div class="w-14 h-14 rounded-2xl bg-[#E9DDF2] text-[#6F5685] flex items-center justify-center text-2xl">
+
+                    ⌖
+
+                </div>
+
+
+                <h2 class="text-xl font-semibold mt-6">
+
+                    Location
+
+                </h2>
+
+
+                <p class="text-gray-600 mt-2">
+
+                    Lahore, Pakistan
+
+                </p>
+
+
+                <p class="text-sm text-gray-500 mt-5">
+
+                    Our online beauty community.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- SUPPORT CARD -->
+
+            <div class="bg-white border border-[#E6DDEA] rounded-3xl p-8 shadow-sm">
+
+
+                <div class="w-14 h-14 rounded-2xl bg-[#E9DDF2] text-[#6F5685] flex items-center justify-center text-2xl">
+
+                    ♡
+
+                </div>
+
+
+                <h2 class="text-xl font-semibold mt-6">
+
+                    Customer Support
+
+                </h2>
+
+
+                <p class="text-gray-600 mt-2">
+
+                    We're here to help.
+
+                </p>
+
+
+                <p class="text-sm text-gray-500 mt-5">
+
+                    Usually available Monday–Friday.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================================= -->
+    <!-- CONTACT FORM CARD -->
+    <!-- FLOWBITE COMPONENT 3 -->
+    <!-- ================================================= -->
+
+    <section class="max-w-6xl mx-auto px-6 pb-20">
+
+
+        <div class="bg-white border border-[#E6DDEA] rounded-[2rem] shadow-sm overflow-hidden">
+
+
+            <div class="grid md:grid-cols-2">
+
+
+                <!-- LEFT SIDE -->
+
+                <div class="bg-[#59436D] text-white p-10 md:p-14">
+
+
+                    <p class="uppercase tracking-[0.3em] text-sm text-purple-200">
+
+                        CONTACT ALOURA
+
+                    </p>
+
+
+                    <h2 class="text-4xl font-semibold mt-4">
+
+                        We'd love to hear from you.
+
+                    </h2>
+
+
+                    <p class="text-purple-100 mt-6 leading-8">
+
+                        Whether you have a question, feedback,
+                        or simply want to say hello, send us a message.
+
+                    </p>
+
+
+                    <div class="mt-10 space-y-6">
+
+
+                        <div>
+
+                            <p class="font-semibold">
+                                Email
+                            </p>
+
+                            <p class="text-purple-100 mt-1">
+                                hello@aloura.com
+                            </p>
+
+                        </div>
+
+
+                        <div>
+
+                            <p class="font-semibold">
+                                Location
+                            </p>
+
+                            <p class="text-purple-100 mt-1">
+                                Lahore, Pakistan
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- RIGHT SIDE FORM -->
+
+                <div class="p-8 md:p-12">
+
+
+                    <h2 class="text-3xl font-semibold">
+
+                        Send us a message
+
+                    </h2>
+
+
+                    <p class="text-gray-600 mt-2 mb-8">
+
+                        Fill in the form below and we'll receive
+                        your message.
+
+                    </p>
+
+
+
+                    <!-- FORMSPREE FORM -->
+
+                    <form
+                        action="https://formspree.io/f/maenyrnw"
+                        method="POST"
+                        class="space-y-6">
+
+
+                        <!-- NAME -->
+
+                        <div>
+
+                            <label
+                                for="name"
+                                class="block mb-2 text-sm font-semibold text-[#29232D]">
+
+                                Your Name
+
+                            </label>
+
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name"
+                                required
+                                minlength="2"
+                                class="bg-[#FAF7FC] border border-[#E6DDEA] text-[#29232D] text-sm rounded-xl focus:ring-2 focus:ring-[#B982AD] focus:border-[#B982AD] block w-full px-4 py-3 outline-none"
+                            >
+
+                        </div>
+
+
+
+                        <!-- EMAIL -->
+
+                        <div>
+
+                            <label
+                                for="email"
+                                class="block mb-2 text-sm font-semibold text-[#29232D]">
+
+                                Email Address
+
+                            </label>
+
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="example@email.com"
+                                required
+                                class="bg-[#FAF7FC] border border-[#E6DDEA] text-[#29232D] text-sm rounded-xl focus:ring-2 focus:ring-[#B982AD] focus:border-[#B982AD] block w-full px-4 py-3 outline-none"
+                            >
+
+                        </div>
+
+
+
+                        <!-- SUBJECT -->
+
+                        <div>
+
+                            <label
+                                for="subject"
+                                class="block mb-2 text-sm font-semibold text-[#29232D]">
+
+                                Subject
+
+                            </label>
+
+
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="What would you like to ask?"
+                                required
+                                minlength="3"
+                                class="bg-[#FAF7FC] border border-[#E6DDEA] text-[#29232D] text-sm rounded-xl focus:ring-2 focus:ring-[#B982AD] focus:border-[#B982AD] block w-full px-4 py-3 outline-none"
+                            >
+
+                        </div>
+
+
+
+                        <!-- MESSAGE -->
+
+                        <div>
+
+                            <label
+                                for="message"
+                                class="block mb-2 text-sm font-semibold text-[#29232D]">
+
+                                Your Message
+
+                            </label>
+
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Write your message here..."
+                                required
+                                minlength="10"
+                                class="bg-[#FAF7FC] border border-[#E6DDEA] text-[#29232D] text-sm rounded-xl focus:ring-2 focus:ring-[#B982AD] focus:border-[#B982AD] block w-full px-4 py-3 outline-none resize-none"
+                            ></textarea>
+
+                        </div>
+
+
+
+                        <!-- CHECKBOX -->
+                        <!-- FLOWBITE COMPONENT 4 -->
+
+                        <div class="flex items-start gap-3">
+
+
+                            <input
+                                id="agree"
+                                type="checkbox"
+                                name="agreement"
+                                value="accepted"
+                                required
+                                class="w-4 h-4 mt-1 text-[#6F5685] bg-gray-100 border-gray-300 rounded focus:ring-[#B982AD]"
+                            >
+
+
+                            <label
+                                for="agree"
+                                class="text-sm text-gray-600">
+
+                                I agree that Aloura may use my
+                                information to respond to my message.
+
+                            </label>
+
+                        </div>
+
+
+
+                        <!-- SUBMIT BUTTON -->
+                        <!-- FLOWBITE COMPONENT 5 -->
+
+                        <button
+                            type="submit"
+                            class="w-full text-white bg-[#6F5685] hover:bg-[#59436D] focus:ring-4 focus:ring-[#E9DDF2] font-semibold rounded-xl text-sm px-5 py-3.5 text-center">
+
+                            Send Message →
+
+                        </button>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================================= -->
+    <!-- FAQ -->
+    <!-- FLOWBITE COMPONENT 6 -->
+    <!-- ================================================= -->
+
+    <section class="bg-[#E9DDF2]">
+
+        <div class="max-w-4xl mx-auto px-6 py-20">
+
+
+            <div class="text-center mb-12">
+
+
+                <p class="uppercase tracking-[0.3em] text-sm text-[#8B6FAE] font-semibold">
+
+                    FAQ
+
+                </p>
+
+
+                <h2 class="text-5xl font-semibold mt-3">
+
+                    Before you message us
+
+                </h2>
+
+            </div>
+
+
+
+            <div class="space-y-4">
+
+
+                <details class="bg-white border border-[#E6DDEA] rounded-2xl p-6">
+
+
+                    <summary class="font-semibold text-lg text-[#6F5685] cursor-pointer">
+
+                        How quickly will I receive a response?
+
+                    </summary>
+
+
+                    <p class="text-gray-600 mt-4 leading-7">
+
+                        We aim to respond to messages as soon as possible
+                        during our support hours.
+
+                    </p>
+
+                </details>
+
+
+
+                <details class="bg-white border border-[#E6DDEA] rounded-2xl p-6">
+
+
+                    <summary class="font-semibold text-lg text-[#6F5685] cursor-pointer">
+
+                        Can I ask about beauty products?
+
+                    </summary>
+
+
+                    <p class="text-gray-600 mt-4 leading-7">
+
+                        Yes. You can use the contact form to send
+                        your questions or feedback.
+
+                    </p>
+
+                </details>
+
+
+
+                <details class="bg-white border border-[#E6DDEA] rounded-2xl p-6">
+
+
+                    <summary class="font-semibold text-lg text-[#6F5685] cursor-pointer">
+
+                        Where is Aloura based?
+
+                    </summary>
+
+
+                    <p class="text-gray-600 mt-4 leading-7">
+
+                        Aloura is based in Lahore, Pakistan.
+
+                    </p>
+
+                </details>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================================= -->
+    <!-- FOOTER -->
+    <!-- ================================================= -->
+
+    <footer class="bg-[#59436D] text-white">
+
+        <div class="max-w-7xl mx-auto px-6 py-16">
+
+
+            <div class="grid md:grid-cols-4 gap-10">
+
+
+                <!-- BRAND -->
+
+                <div>
+
+                    <h2 class="font-display text-3xl font-semibold tracking-[0.25em]">
+
+                        ALOURA
+
+                    </h2>
+
+
+                    <p class="text-purple-100 mt-5 leading-7">
+
+                        Simple skincare and makeup for your
+                        everyday beauty ritual.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- EXPLORE -->
+
+                <div>
+
+                    <h3 class="font-semibold text-lg mb-5">
+
+                        Explore
+
+                    </h3>
+
+
+                    <div class="space-y-3">
+
+
+                        <a href="index.html"
+                           class="block text-purple-100 hover:text-white">
+
+                            Home
+
+                        </a>
+
+
+                        <a href="about.html"
+                           class="block text-purple-100 hover:text-white">
+
+                            About
+
+                        </a>
+
+
+                        <a href="contact.html"
+                           class="block text-purple-100 hover:text-white">
+
+                            Contact
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ACCOUNT -->
+
+                <div>
+
+                    <h3 class="font-semibold text-lg mb-5">
+
+                        Account
+
+                    </h3>
+
+
+                    <div class="space-y-3">
+
+
+                        <a href="signup.html"
+                           class="block text-purple-100 hover:text-white">
+
+                            Sign Up
+
+                        </a>
+
+
+                        <a href="signin.html"
+                           class="block text-purple-100 hover:text-[#E9DDF2]">
+
+                            Sign In
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- CONTACT -->
+
+                <div>
+
+                    <h3 class="font-semibold text-lg mb-5">
+
+                        Say Hello
+
+                    </h3>
+
+
+                    <p class="text-purple-100">
+
+                        hello@aloura.com
+
+                    </p>
+
+
+                    <p class="text-purple-100 mt-2">
+
+                        Lahore, Pakistan
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- COPYRIGHT -->
+
+            <div class="border-t border-purple-300/30 mt-12 pt-6 text-center">
+
+                <p class="text-sm text-purple-100">
+
+                    © 2026 Aloura Beauty. All rights reserved.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,1737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aloura | Beauty, Your Way</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        display: ['Bodoni Moda', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+
+<body class="bg-[#FAF7FC] text-[#29232D] font-sans">
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="bg-white border-b border-[#E6DDEA] sticky top-0 z-50">
+
+        <div class="max-w-7xl mx-auto px-6 py-5">
+
+            <div class="flex items-center justify-between">
+
+                <!-- LOGO -->
+
+                <a href="index.html"
+                    class="font-display text-4xl font-semibold tracking-[0.25em] text-[#6F5685]">
+                    ALOURA
+                </a>
+
+
+                <!-- NAV LINKS -->
+
+                <div class="hidden lg:flex items-center gap-7 text-sm font-medium">
+
+                    <a href="index.html" class="text-[#6F5685]">
+                        Home
+                    </a>
+
+                    <a href="#new"
+                        class="hover:text-[#8B6FAE] transition">
+                        New
+                    </a>
+
+                    <a href="#makeup"
+                        class="hover:text-[#8B6FAE] transition">
+                        Makeup
+                    </a>
+
+                    <a href="#skincare"
+                        class="hover:text-[#8B6FAE] transition">
+                        Skincare
+                    </a>
+
+                    <a href="#serums"
+                        class="hover:text-[#8B6FAE] transition">
+                        Serums
+                    </a>
+
+                    <a href="#bestsellers"
+                        class="hover:text-[#8B6FAE] transition">
+                        Best Sellers
+                    </a>
+
+                    <a href="about.html"
+                        class="hover:text-[#8B6FAE] transition">
+                        About
+                    </a>
+
+                </div>
+
+
+                <!-- RIGHT ICONS -->
+
+                <div class="flex items-center gap-5">
+
+                    <button class="text-xl hover:text-[#8B6FAE]">
+                        ♡
+                    </button>
+
+                    <button class="text-xl hover:text-[#8B6FAE]">
+                        🛍
+                    </button>
+
+                    <a href="signin.html"
+                        class="hidden sm:block bg-[#6F5685] text-white px-5 py-2.5 rounded-full hover:bg-[#59436D] transition">
+                        Sign In
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="bg-[#E9DDF2]">
+
+        <div class="max-w-7xl mx-auto px-6 py-16 md:py-20 grid md:grid-cols-2 gap-12 items-center">
+
+
+            <!-- TEXT -->
+
+            <div>
+
+                <p class="uppercase tracking-[0.3em] text-sm text-[#8B6FAE] mb-5">
+                    NEW BEAUTY COLLECTION
+                </p>
+
+                <h1 class="text-5xl md:text-7xl font-semibold leading-tight">
+                    Beauty,
+                    <span class="text-[#B982AD]">
+                        your way.
+                    </span>
+                </h1>
+
+                <p class="mt-6 text-gray-600 max-w-lg leading-7">
+                    Discover thoughtful skincare and makeup designed
+                    to make your everyday beauty ritual feel special.
+                </p>
+
+
+                <div class="flex flex-wrap gap-4 mt-8">
+
+                    <a href="#makeup"
+                        class="bg-[#6F5685] text-white px-7 py-4 rounded-full hover:bg-[#59436D] transition">
+                        Shop Makeup
+                    </a>
+
+                    <a href="#skincare"
+                        class="border border-[#6F5685] text-[#6F5685] px-7 py-4 rounded-full hover:bg-[#6F5685] hover:text-white transition">
+                        Explore Skincare
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- IMAGE -->
+
+            <div>
+
+                <img
+                    src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85"
+                    alt="Aloura beauty collection"
+                    class="w-full h-[520px] object-cover rounded-[2rem]">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= TRUST STRIP ================= -->
+
+    <section class="bg-white border-b border-[#E6DDEA]">
+
+        <div class="max-w-7xl mx-auto px-6 py-6">
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+
+                <div>
+                    <p class="font-semibold">Cruelty Free</p>
+                    <p class="text-sm text-gray-500 mt-1">
+                        Always kind
+                    </p>
+                </div>
+
+                <div>
+                    <p class="font-semibold">Clean Beauty</p>
+                    <p class="text-sm text-gray-500 mt-1">
+                        Thoughtful formulas
+                    </p>
+                </div>
+
+                <div>
+                    <p class="font-semibold">Free Shipping</p>
+                    <p class="text-sm text-gray-500 mt-1">
+                        On orders $50+
+                    </p>
+                </div>
+
+                <div>
+                    <p class="font-semibold">Easy Returns</p>
+                    <p class="text-sm text-gray-500 mt-1">
+                        Beauty made easy
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SHOP BY CATEGORY ================= -->
+
+    <section class="max-w-7xl mx-auto px-6 py-20">
+
+        <div class="text-center mb-12">
+
+            <p class="uppercase tracking-[0.25em] text-sm text-[#8B6FAE]">
+                EXPLORE ALOURA
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-semibold mt-3">
+                Shop by category
+            </h2>
+
+            <p class="text-gray-600 mt-4">
+                Everything you need for your beauty ritual.
+            </p>
+
+        </div>
+
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+
+
+            <!-- CATEGORY 1 -->
+
+            <a href="#makeup"
+                class="group bg-[#E9DDF2] rounded-3xl overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=85"
+                    class="w-full h-64 object-cover group-hover:scale-105 transition duration-500"
+                    alt="Makeup">
+
+                <div class="p-5">
+                    <h3 class="text-xl font-semibold">
+                        Makeup
+                    </h3>
+
+                    <p class="text-sm text-gray-600 mt-1">
+                        Explore makeup →
+                    </p>
+                </div>
+
+            </a>
+
+
+            <!-- CATEGORY 2 -->
+
+            <a href="#skincare"
+                class="group bg-[#E9DDF2] rounded-3xl overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=700&q=85"
+                    class="w-full h-64 object-cover group-hover:scale-105 transition duration-500"
+                    alt="Skincare">
+
+                <div class="p-5">
+                    <h3 class="text-xl font-semibold">
+                        Skincare
+                    </h3>
+
+                    <p class="text-sm text-gray-600 mt-1">
+                        Care for your skin →
+                    </p>
+                </div>
+
+            </a>
+
+
+            <!-- CATEGORY 3 -->
+
+            <a href="#serums"
+                class="group bg-[#E9DDF2] rounded-3xl overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=700&q=85"
+                    class="w-full h-64 object-cover group-hover:scale-105 transition duration-500"
+                    alt="Serums">
+
+                <div class="p-5">
+                    <h3 class="text-xl font-semibold">
+                        Serums
+                    </h3>
+
+                    <p class="text-sm text-gray-600 mt-1">
+                        Targeted skincare →
+                    </p>
+                </div>
+
+            </a>
+
+
+            <!-- CATEGORY 4 -->
+
+            <a href="#makeup"
+                class="group bg-[#E9DDF2] rounded-3xl overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=700&q=85"
+                    class="w-full h-64 object-cover group-hover:scale-105 transition duration-500"
+                    alt="Lips">
+
+                <div class="p-5">
+                    <h3 class="text-xl font-semibold">
+                        Lips
+                    </h3>
+
+                    <p class="text-sm text-gray-600 mt-1">
+                        Lip color & care →
+                    </p>
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= NEW ARRIVALS ================= -->
+
+    <section id="new" class="bg-white py-20">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+
+            <div class="flex items-end justify-between mb-10">
+
+                <div>
+
+                    <p class="uppercase tracking-[0.25em] text-sm text-[#8B6FAE]">
+                        JUST IN
+                    </p>
+
+                    <h2 class="text-4xl font-semibold mt-3">
+                        New arrivals
+                    </h2>
+
+                </div>
+
+                <a href="#"
+                    class="hidden md:block text-[#6F5685] font-semibold">
+                    Shop all →
+                </a>
+
+            </div>
+
+
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+
+                <!-- PRODUCT 1 -->
+
+                <div class="group">
+
+                    <div class="relative bg-[#FAF7FC] rounded-3xl overflow-hidden">
+
+                        <span
+                            class="absolute top-4 left-4 bg-[#6F5685] text-white text-xs px-3 py-1.5 rounded-full z-10">
+                            NEW
+                        </span>
+
+                        <button
+                            class="absolute top-4 right-4 bg-white w-9 h-9 rounded-full z-10">
+                            ♡
+                        </button>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=85"
+                            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+                            alt="Cloud Cleanser">
+
+                    </div>
+
+                    <div class="pt-5">
+
+                        <p class="text-xs uppercase tracking-wider text-gray-500">
+                            SKINCARE
+                        </p>
+
+                        <h3 class="font-semibold mt-2">
+                            Cloud Cleanser
+                        </h3>
+
+                        <p class="text-sm text-gray-500 mt-1">
+                            Gentle daily face cleanser
+                        </p>
+
+                        <div class="flex items-center gap-2 mt-3">
+
+                            <span class="text-yellow-600">
+                                ★★★★★
+                            </span>
+
+                            <span class="text-xs text-gray-500">
+                                4.9
+                            </span>
+
+                        </div>
+
+                        <p class="font-semibold mt-3">
+                            $18
+                        </p>
+
+                        <button
+                            class="w-full mt-4 border border-[#6F5685] text-[#6F5685] py-3 rounded-full hover:bg-[#6F5685] hover:text-white transition">
+                            Add to Bag
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- PRODUCT 2 -->
+
+                <div class="group">
+
+                    <div class="relative bg-[#FAF7FC] rounded-3xl overflow-hidden">
+
+                        <span
+                            class="absolute top-4 left-4 bg-[#B982AD] text-white text-xs px-3 py-1.5 rounded-full z-10">
+                            NEW
+                        </span>
+
+                        <button
+                            class="absolute top-4 right-4 bg-white w-9 h-9 rounded-full z-10">
+                            ♡
+                        </button>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=85"
+                            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+                            alt="Dew Drop Serum">
+
+                    </div>
+
+                    <div class="pt-5">
+
+                        <p class="text-xs uppercase tracking-wider text-gray-500">
+                            SERUM
+                        </p>
+
+                        <h3 class="font-semibold mt-2">
+                            Dew Drop Serum
+                        </h3>
+
+                        <p class="text-sm text-gray-500 mt-1">
+                            Lightweight hydration boost
+                        </p>
+
+                        <div class="flex items-center gap-2 mt-3">
+                            <span class="text-yellow-600">
+                                ★★★★★
+                            </span>
+
+                            <span class="text-xs text-gray-500">
+                                4.8
+                            </span>
+                        </div>
+
+                        <p class="font-semibold mt-3">
+                            $24
+                        </p>
+
+                        <button
+                            class="w-full mt-4 border border-[#6F5685] text-[#6F5685] py-3 rounded-full hover:bg-[#6F5685] hover:text-white transition">
+                            Add to Bag
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- PRODUCT 3 -->
+
+                <div class="group">
+
+                    <div class="relative bg-[#FAF7FC] rounded-3xl overflow-hidden">
+
+                        <span
+                            class="absolute top-4 left-4 bg-[#6F5685] text-white text-xs px-3 py-1.5 rounded-full z-10">
+                            NEW
+                        </span>
+
+                        <button
+                            class="absolute top-4 right-4 bg-white w-9 h-9 rounded-full z-10">
+                            ♡
+                        </button>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=85"
+                            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+                            alt="Soft Bloom Blush">
+
+                    </div>
+
+                    <div class="pt-5">
+
+                        <p class="text-xs uppercase tracking-wider text-gray-500">
+                            MAKEUP
+                        </p>
+
+                        <h3 class="font-semibold mt-2">
+                            Soft Bloom Blush
+                        </h3>
+
+                        <p class="text-sm text-gray-500 mt-1">
+                            Buildable natural flush
+                        </p>
+
+                        <div class="flex items-center gap-2 mt-3">
+                            <span class="text-yellow-600">
+                                ★★★★★
+                            </span>
+
+                            <span class="text-xs text-gray-500">
+                                4.9
+                            </span>
+                        </div>
+
+                        <p class="font-semibold mt-3">
+                            $19
+                        </p>
+
+                        <button
+                            class="w-full mt-4 border border-[#6F5685] text-[#6F5685] py-3 rounded-full hover:bg-[#6F5685] hover:text-white transition">
+                            Add to Bag
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- PRODUCT 4 -->
+
+                <div class="group">
+
+                    <div class="relative bg-[#FAF7FC] rounded-3xl overflow-hidden">
+
+                        <button
+                            class="absolute top-4 right-4 bg-white w-9 h-9 rounded-full z-10">
+                            ♡
+                        </button>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=800&q=85"
+                            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+                            alt="Cloud Kiss Lip Oil">
+
+                    </div>
+
+                    <div class="pt-5">
+
+                        <p class="text-xs uppercase tracking-wider text-gray-500">
+                            LIPS
+                        </p>
+
+                        <h3 class="font-semibold mt-2">
+                            Cloud Kiss Lip Oil
+                        </h3>
+
+                        <p class="text-sm text-gray-500 mt-1">
+                            Glossy hydration and shine
+                        </p>
+
+                        <div class="flex items-center gap-2 mt-3">
+                            <span class="text-yellow-600">
+                                ★★★★★
+                            </span>
+
+                            <span class="text-xs text-gray-500">
+                                4.7
+                            </span>
+                        </div>
+
+                        <p class="font-semibold mt-3">
+                            $16
+                        </p>
+
+                        <button
+                            class="w-full mt-4 border border-[#6F5685] text-[#6F5685] py-3 rounded-full hover:bg-[#6F5685] hover:text-white transition">
+                            Add to Bag
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SKINCARE ================= -->
+
+    <section id="skincare" class="max-w-7xl mx-auto px-6 py-20">
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+
+
+            <img
+                src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=1000&q=85"
+                alt="Aloura skincare"
+                class="w-full h-[500px] object-cover rounded-[2rem]">
+
+
+            <div>
+
+                <p class="uppercase tracking-[0.25em] text-sm text-[#8B6FAE]">
+                    SKINCARE
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-semibold mt-4">
+                    Your skin,
+                    <span class="text-[#B982AD]">
+                        your ritual.
+                    </span>
+                </h2>
+
+                <p class="text-gray-600 leading-7 mt-5">
+                    Build a simple skincare ritual with gentle,
+                    thoughtfully designed essentials for every day.
+                </p>
+
+                <div class="grid grid-cols-2 gap-4 mt-8">
+
+                    <div class="border border-[#E6DDEA] rounded-2xl p-5">
+                        <h3 class="font-semibold">
+                            Cleansers
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-1">
+                            Fresh & gentle
+                        </p>
+                    </div>
+
+                    <div class="border border-[#E6DDEA] rounded-2xl p-5">
+                        <h3 class="font-semibold">
+                            Toners
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-1">
+                            Balance & prep
+                        </p>
+                    </div>
+
+                    <div class="border border-[#E6DDEA] rounded-2xl p-5">
+                        <h3 class="font-semibold">
+                            Serums
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-1">
+                            Targeted care
+                        </p>
+                    </div>
+
+                    <div class="border border-[#E6DDEA] rounded-2xl p-5">
+                        <h3 class="font-semibold">
+                            Moisturizers
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-1">
+                            Soft & hydrated
+                        </p>
+                    </div>
+
+                </div>
+
+                <a href="#serums"
+                    class="inline-block mt-8 bg-[#6F5685] text-white px-7 py-4 rounded-full hover:bg-[#59436D]">
+                    Explore Skincare
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- SERUM SPOTLIGHT -->
+
+    <section id="serums" class="bg-[#E9DDF2] py-20">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center mb-12">
+
+                <p class="uppercase tracking-[0.25em] text-sm text-[#8B6FAE]">
+                    SERUM EDIT
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-semibold mt-3">
+                    Find your serum
+                </h2>
+
+                <p class="text-gray-600 mt-4">
+                    Targeted formulas for your everyday skincare ritual.
+                </p>
+
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <!-- SERUM 1 -->
+
+                <div class="bg-white rounded-3xl p-5">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=700&q=85"
+                        class="w-full h-64 object-cover rounded-2xl"
+                        alt="Hydrating serum">
+
+                    <p class="text-xs uppercase tracking-wider text-[#8B6FAE] mt-5">
+                        HYDRATING
+                    </p>
+
+                    <h3 class="font-semibold text-xl mt-2">
+                        Dew Drop Serum
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-2">
+                        A lightweight daily hydration formula.
+                    </p>
+
+                    <div class="flex justify-between items-center mt-5">
+
+                        <span class="font-semibold">$24</span>
+
+                        <button class="bg-[#6F5685] text-white px-5 py-2.5 rounded-full">
+                            Add to Bag
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- SERUM 2 -->
+
+                <div class="bg-white rounded-3xl p-5">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=700&q=85"
+                        class="w-full h-64 object-cover rounded-2xl"
+                        alt="Brightening serum">
+
+                    <p class="text-xs uppercase tracking-wider text-[#8B6FAE] mt-5">
+                        BRIGHTENING
+                    </p>
+
+                    <h3 class="font-semibold text-xl mt-2">
+                        Glow Theory Serum
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-2">
+                        A fresh glow-focused skincare essential.
+                    </p>
+
+                    <div class="flex justify-between items-center mt-5">
+
+                        <span class="font-semibold">$26</span>
+
+                        <button class="bg-[#6F5685] text-white px-5 py-2.5 rounded-full">
+                            Add to Bag
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- SERUM 3 -->
+
+                <div class="bg-white rounded-3xl p-5">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=700&q=85"
+                        class="w-full h-64 object-cover rounded-2xl"
+                        alt="Soothing serum">
+
+                    <p class="text-xs uppercase tracking-wider text-[#8B6FAE] mt-5">
+                        SOOTHING
+                    </p>
+
+                    <h3 class="font-semibold text-xl mt-2">
+                        Calm Cloud Serum
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-2">
+                        A gentle formula for a comfortable feel.
+                    </p>
+
+                    <div class="flex justify-between items-center mt-5">
+
+                        <span class="font-semibold">$23</span>
+
+                        <button class="bg-[#6F5685] text-white px-5 py-2.5 rounded-full">
+                            Add to Bag
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+   <!-- ================= MAKEUP SECTION ================= -->
+
+    <section id="makeup" class="bg-white py-20">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex items-end justify-between mb-10">
+
+                <div>
+                    <p class="uppercase tracking-[0.25em] text-sm text-[#8B6FAE]">
+                        MAKEUP EDIT
+                    </p>
+
+                    <h2 class="text-4xl md:text-5xl font-semibold mt-3">
+                        Makeup for every mood
+                    </h2>
+
+                    <p class="text-gray-500 mt-3">
+                        Your favorite finishing touches.
+                    </p>
+                </div>
+
+                <a href="#bestsellers"
+                   class="hidden md:block text-[#6F5685] font-semibold">
+                    Explore all →
+                </a>
+
+            </div>
+
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <!-- PRODUCT 1 -->
+
+                <div class="group">
+
+                    <div class="relative overflow-hidden rounded-3xl bg-[#FAF7FC]">
+
+                        <span class="absolute top-4 left-4 bg-[#6F5685] text-white text-xs px-3 py-1.5 rounded-full">
+                            BEST SELLER
+                        </span>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=85"
+                            alt="Soft Bloom Blush"
+                            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500">
+
+                    </div>
+
+                    <p class="text-xs uppercase tracking-wider text-gray-500 mt-5">
+                        FACE
+                    </p>
+
+                    <h3 class="font-semibold mt-2">
+                        Soft Bloom Blush
+                    </h3>
+
+                    <p class="text-sm text-gray-500 mt-2">
+                        Buildable, natural-looking color.
+                    </p>
+
+                    <p class="font-semibold mt-3">
+                        $19.00
+                    </p>
+
+                    <button class="w-full mt-4 border border-[#6F5685] text-[#6F5685] py-3 rounded-full hover:bg-[#6F5685] hover:text-white transition">
+                        Add to Bag
+                    </button>
+
+                </div>
+
+
+                <!-- PRODUCT 2 -->
+
+                <div class="group">
+
+                    <div class="relative overflow-hidden rounded-3xl bg-[#FAF7FC]">
+
+                        <span class="absolute top-4 left-4 bg-[#B982AD] text-white text-xs px-3 py-1.5 rounded-full">
+                            NEW
+                        </span>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1631214524020-7e18db9e8c5d?auto=format&fit=crop&w=800&q=85"
+                            alt="Lash Muse Mascara"
+                            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500">
+
+                    </div>
+
+                    <p class="text-xs uppercase tracking-wider text-gray-500 mt-5">
+                        EYES
+                    </p>
+
+                    <h3 class="font-semibold mt-2">
+                        Lash Muse Mascara
+                    </h3>
+
+                    <p class="text-sm text-gray-500 mt-2">
+                        Define your everyday eye look.
+                    </p>
+
+                    <p class="font-semibold mt-3">
+                        $21.00
+                    </p>
+
+                    <button class="w-full mt-4 border border-[#6F5685] text-[#6F5685] py-3 rounded-full hover:bg-[#6F5685] hover:text-white transition">
+                        Add to Bag
+                    </button>
+
+                </div>
+
+
+                <!-- PRODUCT 3 -->
+
+                <div class="group">
+
+                    <div class="relative overflow-hidden rounded-3xl bg-[#FAF7FC]">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=800&q=85"
+                            alt="Skin Veil Foundation"
+                            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500">
+
+                    </div>
+
+                    <p class="text-xs uppercase tracking-wider text-gray-500 mt-5">
+                        FACE
+                    </p>
+
+                    <h3 class="font-semibold mt-2">
+                        Skin Veil Foundation
+                    </h3>
+
+                    <p class="text-sm text-gray-500 mt-2">
+                        A smooth, natural-looking finish.
+                    </p>
+
+                    <p class="font-semibold mt-3">
+                        $29.00
+                    </p>
+
+                    <button class="w-full mt-4 border border-[#6F5685] text-[#6F5685] py-3 rounded-full hover:bg-[#6F5685] hover:text-white transition">
+                        Add to Bag
+                    </button>
+
+                </div>
+
+
+                <!-- PRODUCT 4 -->
+
+                <div class="group">
+
+                    <div class="relative overflow-hidden rounded-3xl bg-[#FAF7FC]">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=800&q=85"
+                            alt="Cloud Kiss Lip Oil"
+                            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500">
+
+                    </div>
+
+                    <p class="text-xs uppercase tracking-wider text-gray-500 mt-5">
+                        LIPS
+                    </p>
+
+                    <h3 class="font-semibold mt-2">
+                        Cloud Kiss Lip Oil
+                    </h3>
+
+                    <p class="text-sm text-gray-500 mt-2">
+                        Glossy hydration and shine.
+                    </p>
+
+                    <p class="font-semibold mt-3">
+                        $16.00
+                    </p>
+
+                    <button class="w-full mt-4 border border-[#6F5685] text-[#6F5685] py-3 rounded-full hover:bg-[#6F5685] hover:text-white transition">
+                        Add to Bag
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PROMOTION BANNER ================= -->
+
+    <section class="max-w-7xl mx-auto px-6 py-16">
+
+        <div class="bg-[#59436D] text-white rounded-[2rem] px-8 py-16 md:px-16 text-center">
+
+            <p class="uppercase tracking-[0.3em] text-sm text-[#E9DDF2]">
+                A LITTLE BEAUTY TREAT
+            </p>
+
+            <h2 class="text-4xl md:text-6xl font-semibold mt-5">
+                Your first beauty ritual starts here.
+            </h2>
+
+            <p class="text-white/70 mt-5">
+                Enjoy 15% off your first Aloura order.
+            </p>
+
+            <a href="signup.html"
+               class="inline-block mt-8 bg-white text-[#59436D] px-8 py-4 rounded-full font-semibold hover:bg-[#E9DDF2] transition">
+                Join Aloura
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= BEST SELLERS ================= -->
+
+    <section id="bestsellers" class="max-w-7xl mx-auto px-6 py-20">
+
+        <div class="text-center mb-12">
+
+            <p class="uppercase tracking-[0.25em] text-sm text-[#8B6FAE]">
+                THE MOST LOVED
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-semibold mt-3">
+                Aloura best sellers
+            </h2>
+
+            <p class="text-gray-500 mt-4">
+                Beauty favorites worth discovering.
+            </p>
+
+        </div>
+
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+            <!-- BEST SELLER 1 -->
+
+            <div class="bg-white border border-[#E6DDEA] rounded-3xl p-5">
+
+                <div class="flex justify-between items-center">
+
+                    <span class="bg-[#E9DDF2] text-[#6F5685] text-xs px-3 py-1.5 rounded-full">
+                        BEST SELLER
+                    </span>
+
+                    <button class="text-2xl text-[#6F5685]">
+                        ♡
+                    </button>
+
+                </div>
+
+                <img
+                    src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=700&q=85"
+                    alt="Cloud Cleanser"
+                    class="w-full h-64 object-cover rounded-2xl mt-5">
+
+                <p class="text-yellow-600 mt-4">
+                    ★★★★★ <span class="text-gray-500 text-sm">4.9</span>
+                </p>
+
+                <h3 class="font-semibold text-xl mt-2">
+                    Cloud Cleanser
+                </h3>
+
+                <p class="text-sm text-gray-500 mt-2">
+                    Gentle daily face cleanser.
+                </p>
+
+                <p class="font-semibold mt-3">
+                    $18.00
+                </p>
+
+                <button class="w-full mt-4 bg-[#6F5685] text-white py-3 rounded-full hover:bg-[#59436D]">
+                    Add to Bag
+                </button>
+
+            </div>
+
+
+            <!-- BEST SELLER 2 -->
+
+            <div class="bg-white border border-[#E6DDEA] rounded-3xl p-5">
+
+                <div class="flex justify-between items-center">
+
+                    <span class="bg-[#E9DDF2] text-[#6F5685] text-xs px-3 py-1.5 rounded-full">
+                        BEST SELLER
+                    </span>
+
+                    <button class="text-2xl text-[#6F5685]">
+                        ♡
+                    </button>
+
+                </div>
+
+                <img
+                    src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=700&q=85"
+                    alt="Dew Drop Serum"
+                    class="w-full h-64 object-cover rounded-2xl mt-5">
+
+                <p class="text-yellow-600 mt-4">
+                    ★★★★★ <span class="text-gray-500 text-sm">4.8</span>
+                </p>
+
+                <h3 class="font-semibold text-xl mt-2">
+                    Dew Drop Serum
+                </h3>
+
+                <p class="text-sm text-gray-500 mt-2">
+                    Lightweight hydration boost.
+                </p>
+
+                <p class="font-semibold mt-3">
+                    $24.00
+                </p>
+
+                <button class="w-full mt-4 bg-[#6F5685] text-white py-3 rounded-full hover:bg-[#59436D]">
+                    Add to Bag
+                </button>
+
+            </div>
+
+
+            <!-- BEST SELLER 3 -->
+
+            <div class="bg-white border border-[#E6DDEA] rounded-3xl p-5">
+
+                <div class="flex justify-between items-center">
+
+                    <span class="bg-[#E9DDF2] text-[#6F5685] text-xs px-3 py-1.5 rounded-full">
+                        BEST SELLER
+                    </span>
+
+                    <button class="text-2xl text-[#6F5685]">
+                        ♡
+                    </button>
+
+                </div>
+
+                <img
+                    src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=85"
+                    alt="Soft Bloom Blush"
+                    class="w-full h-64 object-cover rounded-2xl mt-5">
+
+                <p class="text-yellow-600 mt-4">
+                    ★★★★★ <span class="text-gray-500 text-sm">4.9</span>
+                </p>
+
+                <h3 class="font-semibold text-xl mt-2">
+                    Soft Bloom Blush
+                </h3>
+
+                <p class="text-sm text-gray-500 mt-2">
+                    Buildable natural-looking color.
+                </p>
+
+                <p class="font-semibold mt-3">
+                    $19.00
+                </p>
+
+                <button class="w-full mt-4 bg-[#6F5685] text-white py-3 rounded-full hover:bg-[#59436D]">
+                    Add to Bag
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= BEAUTY RITUAL ================= -->
+
+    <section class="bg-[#E9DDF2] py-20">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center mb-12">
+
+                <p class="uppercase tracking-[0.25em] text-sm text-[#8B6FAE]">
+                    YOUR DAILY ROUTINE
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-semibold mt-3">
+                    Build your beauty ritual
+                </h2>
+
+                <p class="text-gray-600 mt-4">
+                    Simple steps. Beautiful everyday moments.
+                </p>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+
+                <div class="bg-white rounded-3xl p-8 text-center">
+
+                    <div class="w-16 h-16 bg-[#E9DDF2] text-[#6F5685] rounded-full flex items-center justify-center mx-auto text-xl font-semibold">
+                        01
+                    </div>
+
+                    <h3 class="text-xl font-semibold mt-5">
+                        Cleanse
+                    </h3>
+
+                    <p class="text-gray-600 mt-3 leading-6">
+                        Begin with a gentle cleanser to refresh your skin.
+                    </p>
+
+                    <a href="#skincare" class="inline-block mt-5 text-[#6F5685] font-semibold">
+                        Shop Cleansers →
+                    </a>
+
+                </div>
+
+
+                <div class="bg-white rounded-3xl p-8 text-center">
+
+                    <div class="w-16 h-16 bg-[#E9DDF2] text-[#6F5685] rounded-full flex items-center justify-center mx-auto text-xl font-semibold">
+                        02
+                    </div>
+
+                    <h3 class="text-xl font-semibold mt-5">
+                        Treat
+                    </h3>
+
+                    <p class="text-gray-600 mt-3 leading-6">
+                        Add a serum that suits your everyday skincare ritual.
+                    </p>
+
+                    <a href="#serums" class="inline-block mt-5 text-[#6F5685] font-semibold">
+                        Shop Serums →
+                    </a>
+
+                </div>
+
+
+                <div class="bg-white rounded-3xl p-8 text-center">
+
+                    <div class="w-16 h-16 bg-[#E9DDF2] text-[#6F5685] rounded-full flex items-center justify-center mx-auto text-xl font-semibold">
+                        03
+                    </div>
+
+                    <h3 class="text-xl font-semibold mt-5">
+                        Glow
+                    </h3>
+
+                    <p class="text-gray-600 mt-3 leading-6">
+                        Finish your look with your favorite makeup essentials.
+                    </p>
+
+                    <a href="#makeup" class="inline-block mt-5 text-[#6F5685] font-semibold">
+                        Shop Makeup →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= BEAUTY JOURNAL ================= -->
+
+    <section id="journal" class="max-w-7xl mx-auto px-6 py-20">
+
+        <div class="flex items-end justify-between mb-10">
+
+            <div>
+
+                <p class="uppercase tracking-[0.25em] text-sm text-[#8B6FAE]">
+                    THE ALOURA EDIT
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-semibold mt-3">
+                    Beauty journal
+                </h2>
+
+                <p class="text-gray-500 mt-4">
+                    Inspiration, tips and little beauty discoveries.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+
+            <!-- ARTICLE 1 -->
+
+            <article class="group">
+
+                <div class="overflow-hidden rounded-3xl">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=800&q=85"
+                        alt="Skincare routine"
+                        class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+
+                </div>
+
+                <p class="text-xs uppercase tracking-wider text-[#8B6FAE] mt-5">
+                    SKINCARE
+                </p>
+
+                <h3 class="text-xl font-semibold mt-2">
+                    How to build a simple skincare ritual
+                </h3>
+
+                <p class="text-sm text-gray-500 mt-3 leading-6">
+                    Discover the basics of a simple and consistent skincare routine.
+                </p>
+
+                <a href="#skincare" class="inline-block mt-4 text-[#6F5685] font-semibold">
+                    Explore Skincare →
+                </a>
+
+            </article>
+
+
+            <!-- ARTICLE 2 -->
+
+            <article class="group">
+
+                <div class="overflow-hidden rounded-3xl">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=85"
+                        alt="Makeup essentials"
+                        class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+
+                </div>
+
+                <p class="text-xs uppercase tracking-wider text-[#8B6FAE] mt-5">
+                    MAKEUP
+                </p>
+
+                <h3 class="text-xl font-semibold mt-2">
+                    Your everyday makeup essentials
+                </h3>
+
+                <p class="text-sm text-gray-500 mt-3 leading-6">
+                    Explore versatile beauty favorites for everyday looks.
+                </p>
+
+                <a href="#makeup" class="inline-block mt-4 text-[#6F5685] font-semibold">
+                    Explore Makeup →
+                </a>
+
+            </article>
+
+
+            <!-- ARTICLE 3 -->
+
+            <article class="group">
+
+                <div class="overflow-hidden rounded-3xl">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=85"
+                        alt="Beauty products"
+                        class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+
+                </div>
+
+                <p class="text-xs uppercase tracking-wider text-[#8B6FAE] mt-5">
+                    BEAUTY
+                </p>
+
+                <h3 class="text-xl font-semibold mt-2">
+                    The art of effortless beauty
+                </h3>
+
+                <p class="text-sm text-gray-500 mt-3 leading-6">
+                    Little ways to make your daily beauty ritual feel special.
+                </p>
+
+                <a href="#bestsellers" class="inline-block mt-4 text-[#6F5685] font-semibold">
+                    Discover Favorites →
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FAQ ================= -->
+
+    <section class="bg-white py-20">
+
+        <div class="max-w-3xl mx-auto px-6">
+
+            <div class="text-center mb-10">
+
+                <p class="uppercase tracking-[0.25em] text-sm text-[#8B6FAE]">
+                    HERE TO HELP
+                </p>
+
+                <h2 class="text-4xl font-semibold mt-3">
+                    Frequently asked questions
+                </h2>
+
+            </div>
+
+
+            <div class="space-y-4">
+
+
+                <details class="border border-[#E6DDEA] rounded-2xl p-5">
+
+                    <summary class="font-semibold cursor-pointer">
+                        Is Aloura cruelty free?
+                    </summary>
+
+                    <p class="text-gray-600 mt-4 leading-6">
+                        Aloura is committed to thoughtful beauty and cruelty-free product development.
+                    </p>
+
+                </details>
+
+
+                <details class="border border-[#E6DDEA] rounded-2xl p-5">
+
+                     <summary class="font-semibold cursor-pointer">
+    Is Aloura cruelty free?
+</summary>
+
+<p class="text-gray-600 mt-4 leading-6">
+    Aloura is committed to thoughtful beauty and cruelty-free
+    product development.
+</p>
+
+</details>
+
+
+<!-- FAQ 2 -->
+
+<details class="border border-[#E6DDEA] rounded-2xl p-5">
+
+    <summary class="font-semibold cursor-pointer">
+        What types of products does Aloura offer?
+    </summary>
+
+    <p class="text-gray-600 mt-4 leading-6">
+        Aloura features skincare, serums, makeup and
+        everyday beauty essentials.
+    </p>
+
+</details>
+
+
+<!-- FAQ 3 -->
+
+<details class="border border-[#E6DDEA] rounded-2xl p-5">
+
+    <summary class="font-semibold cursor-pointer">
+        Do you offer free shipping?
+    </summary>
+
+    <p class="text-gray-600 mt-4 leading-6">
+        Free shipping is available on orders over $50.
+    </p>
+
+</details>
+
+
+<!-- FAQ 4 -->
+
+<details class="border border-[#E6DDEA] rounded-2xl p-5">
+
+    <summary class="font-semibold cursor-pointer">
+        How can I contact Aloura?
+    </summary>
+
+    <p class="text-gray-600 mt-4 leading-6">
+        Visit our Contact page to send us a message.
+    </p>
+
+    <a href="contact.html"
+       class="inline-block mt-3 text-[#6F5685] font-semibold">
+        Contact Us →
+    </a>
+
+</details>
+
+
+</div>
+
+</div>
+
+</section>
+<!-- NEWSLETTER SECTION -->
+
+<section class="bg-[#FAF7FC] py-20">
+
+    <div class="max-w-3xl mx-auto px-6 text-center">
+
+        <p class="uppercase tracking-[0.25em] text-sm text-[#8B6FAE]">
+            STAY IN THE GLOW
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-semibold mt-3">
+            A little beauty in your inbox
+        </h2>
+
+        <p class="text-gray-600 mt-4 leading-7">
+            Discover new launches, beauty tips and exclusive offers.
+        </p>
+
+        <form class="flex flex-col sm:flex-row gap-3 mt-8">
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+                class="flex-1 px-5 py-4 rounded-full border border-[#E6DDEA] bg-white outline-none focus:ring-2 focus:ring-[#B982AD]">
+
+            <button
+                type="submit"
+                class="bg-[#6F5685] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#59436D] transition">
+
+                Subscribe
+
+            </button>
+
+        </form>
+
+        <p class="text-xs text-gray-400 mt-4">
+            Beauty updates, delivered with love.
+        </p>
+
+    </div>
+
+</section>
+<!-- FOOTER SECTION -->
+
+<footer class="bg-[#59436D] text-white">
+
+    <div class="max-w-7xl mx-auto px-6 py-14">
+
+        <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-10">
+
+            <!-- BRAND -->
+
+            <div>
+
+                <h2 class="font-display text-3xl font-semibold tracking-[0.25em]">
+                    ALOURA
+                </h2>
+
+                <p class="text-white/70 text-sm mt-4 leading-6">
+                    Thoughtful skincare and makeup for
+                    your everyday beauty rituals.
+                </p>
+
+                <p class="text-white/70 text-sm mt-4">
+                    Beauty, your way.
+                </p>
+
+            </div>
+
+
+            <!-- SHOP -->
+
+            <div>
+
+                <h3 class="font-semibold text-lg">
+                    Shop
+                </h3>
+
+                <div class="space-y-3 mt-5 text-sm text-white/70">
+
+                    <a href="#makeup" class="block hover:text-white">
+                        Makeup
+                    </a>
+
+                    <a href="#skincare" class="block hover:text-white">
+                        Skincare
+                    </a>
+
+                    <a href="#serums" class="block hover:text-white">
+                        Serums
+                    </a>
+
+                    <a href="#bestsellers" class="block hover:text-white">
+                        Best Sellers
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- EXPLORE -->
+
+            <div>
+
+                <h3 class="font-semibold text-lg">
+                    Explore
+                </h3>
+
+                <div class="space-y-3 mt-5 text-sm text-white/70">
+
+                    <a href="index.html" class="block hover:text-white">
+                        Home
+                    </a>
+
+                    <a href="about.html" class="block hover:text-white">
+                        About Us
+                    </a>
+
+                    <a href="contact.html" class="block hover:text-white">
+                        Contact Us
+                    </a>
+
+                    <a href="#journal" class="block hover:text-white">
+                        Beauty Journal
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ACCOUNT -->
+
+            <div>
+
+                <h3 class="font-semibold text-lg">
+                    My Account
+                </h3>
+
+                <div class="space-y-3 mt-5 text-sm text-white/70">
+
+                    <a href="signin.html" class="block hover:text-white">
+                        Sign In
+                    </a>
+
+                    <a href="signup.html" class="block hover:text-white">
+                        Create Account
+                    </a>
+
+                    <a href="#bestsellers" class="block hover:text-white">
+                        My Bag
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- BOTTOM FOOTER -->
+
+        <div class="border-t border-white/20 mt-12 pt-6 flex flex-col md:flex-row justify-between gap-4">
+
+            <p class="text-sm text-white/50">
+                © 2026 Aloura. All rights reserved.
+            </p>
+
+            <p class="text-sm text-white/50">
+                Made with love for beauty.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
